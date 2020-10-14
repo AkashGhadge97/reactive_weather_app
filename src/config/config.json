@@ -1,0 +1,9 @@
+{
+    "wetaherstack_url": "http://api.weatherstack.com",
+    "access_key": "a98cf5a79fd85347e657fd0bb08c5892",
+    "resources" : {
+        "current" : "/current",
+        "hitsoricl": "/historical"
+    },
+    "nearby_cities_url": "http://getnearbycities.geobytes.com/GetNearbyCities?Radius=170&units=km&Limit=10&locationcode="
+}
