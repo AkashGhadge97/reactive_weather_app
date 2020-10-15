@@ -1,6 +1,7 @@
 import React from 'react';
 import Weather from './Weather.js';
 import {CallWeatherAPI,  CallCitiesAPI } from '../helper/helper.js'
+import '../css/App.css'
 
 export default class App extends React.Component {
 
@@ -100,7 +101,12 @@ export default class App extends React.Component {
     return (
       <div className="App">
         <div className="AppHeader">
-            <input type="text" value={this.state.city} onChange={this.handleChange} />
+            <img className="Logo" src={require("../images/logo.PNG")} />
+            <input className="SearchBar" type="text" value={this.state.city} onChange={this.handleChange} />
+            <label className="switch">
+                <input type="checkbox" unchecked />
+                <span className="slider round"></span>
+            </label>
         </div>
         <div className="LeftWindow">
           <div>
