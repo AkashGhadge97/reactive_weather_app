@@ -1,6 +1,6 @@
 {
     "wetaherstack_url": "http://api.weatherstack.com",
-    "access_key": "a98cf5a79fd85347e657fd0bb08c5892",
+    "access_key": "<Generate it from WeatherStack>",
     "resources" : {
         "current" : "/current",
         "hitsoricl": "/historical"
